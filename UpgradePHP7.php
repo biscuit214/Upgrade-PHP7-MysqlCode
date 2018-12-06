@@ -84,7 +84,7 @@ if (!function_exists('mysql_num_rows')) {
     }
 }
 
-if (!function_exists('mysql_fetch_lengths ')) {
+if (!function_exists('mysql_fetch_lengths')) {
     function mysql_fetch_lengths($result)
     {
         return mysqli_fetch_lengths($result);
